@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kwTNANTjLVcLAJaUxU4QYpSX6hkUUYZdNSfas5Pm5yUuU9pBl+GD0SDz3nUf+1Zj/QvQ6X2f12Ug1ACDbi+quA==",
+  "success": true,
+  "projectFilePath": "/home/masv/csharp-poo/app/app.csproj",
+  "expectedPackageFiles": [
+    "/home/masv/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.6/microsoft.aspnetcore.app.ref.8.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

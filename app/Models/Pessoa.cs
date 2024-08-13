@@ -7,6 +7,17 @@ namespace app.Models
 {
     public class Pessoa
     {
+        //construtor padrão
+        public Pessoa(){
+
+        }
+
+        //construtor
+        public Pessoa(string nome, string sobrenome){
+            Nome = nome;
+            SobreNome = sobrenome;
+
+        }
         private string _nome;
     
 

@@ -2,14 +2,11 @@
 using app.Models;
 
 
-Pessoa p1 = new Pessoa();
-p1.Nome = "maria";
-p1.SobreNome = "silva";
+Pessoa p1 = new Pessoa(nome: "maria", sobrenome: "silva");
 
 
-Pessoa p2 = new Pessoa();
-p2.Nome = "ana";
-p2.SobreNome = "vasconcelo";
+Pessoa p2 = new Pessoa(nome: "ana",sobrenome: "vasconcelo");
+
 
 Curso cursoDeIngles = new Curso();
 cursoDeIngles.Nome = "Ingles";

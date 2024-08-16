@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/masv/csharp-poo/app/app.csproj",
+      "projectUniqueName": "/home/masv/app/csharp-poo/app.csproj",
       "projectName": "app",
-      "projectPath": "/home/masv/csharp-poo/app/app.csproj",
+      "projectPath": "/home/masv/app/csharp-poo/app.csproj",
       "packagesPath": "/home/masv/.nuget/packages/",
-      "outputPath": "/home/masv/csharp-poo/app/obj/",
+      "outputPath": "/home/masv/app/csharp-poo/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/masv/.nuget/NuGet/NuGet.Config"

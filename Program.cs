@@ -1,18 +1,15 @@
 ﻿using app.Models;
 
 
-//aluno
-Aluno aluno1 = new Aluno();
+//aluno                chamando o construtor
+Aluno aluno1 = new Aluno("Mailson", 25, 10);
 
-aluno1.Nome = "Mailson";
-aluno1.Idade = 25;
-aluno1.Nota = 10;
 aluno1.Apresentar();
 
 
-//professor
-Professor professor1 = new Professor();
-professor1.Nome = "Max";
-professor1.Idade = 30;
-professor1.Salario = 1500M;
+
+
+//professor              chamando o construtor
+Professor professor1 = new Professor("Max", 30, 1500M);
+
 professor1.Apresentar();

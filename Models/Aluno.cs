@@ -7,6 +7,17 @@ namespace app.Models
 {
     public class Aluno : Pessoa
     {
+     //construtor do aluno 
+      public Aluno (string nome, int idade, double nota){
+        Nome = nome;
+        Idade = idade;
+        Nota = nota;
+
+      }
+
+
+
+
       public double Nota { get; set; }
 
         public override void Apresentar()

@@ -1,10 +1,9 @@
 
-namespace EstudosPoo.Models
+namespace csharpPoo.Models.ex001
 {
     public class Aluno : Pessoa
     {
-
-        //construto e obrigado passa nome
+        //base(), passando o _nome de aluno para class pai Pessoa
         public Aluno(string _nome) : base(_nome)
         {
 
@@ -15,8 +14,7 @@ namespace EstudosPoo.Models
 
         public override void Apresentar()
         {
-            Console.WriteLine($"Olá, Sou {Nome.ToUpper()}, de {Idade} Anos, Sou Aluno nota {Nota}");
+            Console.WriteLine($"Ola, eu nome é {Nome} e sou Aluno Nota {Nota}");
         }
-
     }
 }

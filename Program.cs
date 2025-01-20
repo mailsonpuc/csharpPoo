@@ -9,12 +9,19 @@ Console.Clear();
 
 Console.WriteLine("-".PadLeft(80, '-'));
 
-ICalculadora calc = new CalculadoraNormal();
-Console.WriteLine(calc.Soma(5, 5));
-Console.WriteLine(calc.Subtrair(15, 5));
-Console.WriteLine(calc.Multiplicar(5, 5));
-Console.WriteLine(calc.Dividir(50, 5));
+// ICalculadora calc = new CalculadoraNormal();
+// Console.WriteLine($"A soma 5 + 5 = {calc.Soma(5, 5)}");
+// Console.WriteLine($"A subtração 15 - 5 = {calc.Subtrair(15, 5)}");
+// Console.WriteLine($"A multiplicação 5 X 5 = {calc.Multiplicar(5, 5)}");
+// Console.WriteLine($"A Divisão 50 / 5 = {calc.Dividir(50, 5)}");
 
+
+CalculadoraCientifica calcCientifica = new CalculadoraCientifica();
+calcCientifica.N1 = 5;
+Console.WriteLine($"Soma de 5 + 5 = {calcCientifica.Soma(5, 5)}");
+
+Console.WriteLine($"Tripo de 5 é {calcCientifica.Triplo(5)}");
+Console.WriteLine($"A raiz de 5 é {calcCientifica.Raiz(5)}");
 
 // Aluno al1 = new Aluno("Mailson", 10, 28);
 // al1.Apresentar();

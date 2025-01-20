@@ -1,4 +1,4 @@
 estudos sobre orientação a objetos com c sharp.
 
-![image](https://github.com/user-attachments/assets/8fbc941c-abd7-491c-8e28-3b58f3844521)
+![image](https://github.com/mailsonpuc/csharp-poo/blob/main/diagram/Captura%20de%20imagem_20250119_220435.png?raw=true)
 

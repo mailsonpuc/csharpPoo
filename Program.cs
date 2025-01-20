@@ -1,14 +1,23 @@
 ﻿
+using System.Collections.ObjectModel;
 using csharpPoo.Models.ex001;
 using csharpPoo.Models.ex002;
+using csharpPoo.Models.ex003;
 
 Console.Clear();
 
 
 Console.WriteLine("-".PadLeft(80, '-'));
 
-Aluno al1 = new Aluno("Mailson", 10, 28);
-al1.Apresentar();
+ICalculadora calc = new CalculadoraNormal();
+Console.WriteLine(calc.Soma(5, 5));
+Console.WriteLine(calc.Subtrair(15, 5));
+Console.WriteLine(calc.Multiplicar(5, 5));
+Console.WriteLine(calc.Dividir(50, 5));
+
+
+// Aluno al1 = new Aluno("Mailson", 10, 28);
+// al1.Apresentar();
 
 
 // Console.WriteLine("-".PadLeft(80, '-'));

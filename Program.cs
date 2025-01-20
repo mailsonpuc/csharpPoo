@@ -1,15 +1,13 @@
-﻿using app.Models;
+﻿
+using EstudosPoo.Models;
+
+Aluno al1 = new Aluno("Mailson");
+al1.Idade = 22;
+al1.Nota = 10.0;
+al1.Apresentar();
 
 
-//aluno                chamando o construtor
-Aluno aluno1 = new Aluno("Mailson", 25, 10);
-
-aluno1.Apresentar();
-
-
-
-
-//professor              chamando o construtor
-Professor professor1 = new Professor("Max", 30, 1500M);
-
-professor1.Apresentar();
+Professor prf1 = new Professor("Mario Smith");
+prf1.Idade = 50;
+prf1.Salario = 5600;
+prf1.Apresentar();

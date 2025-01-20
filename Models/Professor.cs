@@ -1,30 +1,20 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace app.Models
+namespace EstudosPoo.Models
 {
-
     public class Professor : Pessoa
     {
-        //construtor do professor
-         public  Professor(string nome, int idade, decimal salario) {
-            Nome = nome;
-            Idade = idade;
-            Salario = salario;
 
-          }
+        //base() passando o _nome para class pai, Pessoa
+        public Professor(string _nome) : base(_nome)
+        {
 
-
-
+        }
 
         public decimal Salario { get; set; }
 
         public override void Apresentar()
         {
-            //base.Apresentar();
-            Console.WriteLine($"Ola, Meu nome é {Nome}, Tenho {Idade} Anos, Ganho R$ {Salario}");
+            Console.WriteLine($"Olá sou Professor {Nome.ToUpper()}, de {Idade} anos, Ganho {Salario} salario");
         }
     }
 }

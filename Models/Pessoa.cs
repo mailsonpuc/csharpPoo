@@ -1,19 +1,20 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace app.Models
+namespace EstudosPoo.Models
 {
     public class Pessoa
     {
-        public string Nome { get; set; }
+        public Pessoa(string _nome)
+        {
+            Nome = _nome;
+        }
+
+        public string Nome { get; set; } = string.Empty;
         public int Idade { get; set; }
 
 
-        //Este metodo pode ser subscrito
-        public virtual void Apresentar(){
-            Console.WriteLine($"Ola, Meu nome é: {Nome} idade: {Idade}");
+        public virtual void Apresentar()
+        {
+            Console.WriteLine($"Ola, Meu nome é {Nome}, e tenho {Idade} anos.");
         }
     }
 }

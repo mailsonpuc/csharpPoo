@@ -9,3 +9,10 @@
 
 ## ex003
 <img src="diagram/ex003.png">
+
+## ex004
+<img src="diagram/ex004.png">
+
+
+## ex005
+<img src="diagram/ex005.png">

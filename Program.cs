@@ -3,11 +3,50 @@ using System.Collections.ObjectModel;
 using csharpPoo.Models.ex001;
 using csharpPoo.Models.ex002;
 using csharpPoo.Models.ex003;
+using csharpPoo.Models.ex004;
+using csharpPoo.Models.ex005;
 
 Console.Clear();
 
 
-Console.WriteLine("-".PadLeft(80, '-'));
+Console.WriteLine("-".PadLeft(100, '-'));
+
+PessoaFisica maria = new PessoaFisica();
+Guid chaveAleatoria = Guid.NewGuid();
+string MinhaChavePix = chaveAleatoria.ToString();
+
+maria.Chave = MinhaChavePix;
+maria.Nome = "Maria smith";
+maria.Saldo = 100;
+maria.ExibirSaldo();
+
+maria.Receber(20);
+maria.ExibirSaldo();
+
+maria.Enviar(50);
+maria.ExibirSaldo();
+
+Console.WriteLine("-".PadLeft(100, '-'));
+
+
+
+
+
+/*extanciando a class abstrata conta
+Não é possível criar uma instância do tipo abstrato 
+-> Conta conta1 = new Conta();
+*/
+// Corrente c1 = new Corrente();
+// c1.Creditar(500);
+// c1.ExibirSaldo();
+//-> c1.Saldo(); Não aparece ,porque é protegido
+
+
+
+
+
+
+
 
 // ICalculadora calc = new CalculadoraNormal();
 // Console.WriteLine($"A soma 5 + 5 = {calc.Soma(5, 5)}");
@@ -16,12 +55,12 @@ Console.WriteLine("-".PadLeft(80, '-'));
 // Console.WriteLine($"A Divisão 50 / 5 = {calc.Dividir(50, 5)}");
 
 
-CalculadoraCientifica calcCientifica = new CalculadoraCientifica();
-calcCientifica.N1 = 5;
-Console.WriteLine($"Soma de 5 + 5 = {calcCientifica.Soma(5, 5)}");
+// CalculadoraCientifica calcCientifica = new CalculadoraCientifica();
+// calcCientifica.N1 = 5;
+// Console.WriteLine($"Soma de 5 + 5 = {calcCientifica.Soma(5, 5)}");
 
-Console.WriteLine($"Tripo de 5 é {calcCientifica.Triplo(5)}");
-Console.WriteLine($"A raiz de 5 é {calcCientifica.Raiz(5)}");
+// Console.WriteLine($"Tripo de 5 é {calcCientifica.Triplo(5)}");
+// Console.WriteLine($"A raiz de 5 é {calcCientifica.Raiz(5)}");
 
 // Aluno al1 = new Aluno("Mailson", 10, 28);
 // al1.Apresentar();

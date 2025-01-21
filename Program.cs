@@ -5,26 +5,53 @@ using csharpPoo.Models.ex002;
 using csharpPoo.Models.ex003;
 using csharpPoo.Models.ex004;
 using csharpPoo.Models.ex005;
+using csharpPoo.Models.ex006;
 
 Console.Clear();
 
 
 Console.WriteLine("-".PadLeft(100, '-'));
 
-PessoaFisica maria = new PessoaFisica();
-Guid chaveAleatoria = Guid.NewGuid();
-string MinhaChavePix = chaveAleatoria.ToString();
+PessoaNormal maria = new PessoaNormal();
+maria.Nome = "Maria";
+maria.Idade = 33;
+maria.Empregos.Add("Densevolvedora Front-end");
+maria.Empregos.Add("Designer");
+maria.Empregos.Add("Video de Youtube");
+maria.Empregos.Add("Palestrante");
 
-maria.Chave = MinhaChavePix;
-maria.Nome = "Maria smith";
-maria.Saldo = 100;
-maria.ExibirSaldo();
+maria.ExibirInformacao();
 
-maria.Receber(20);
-maria.ExibirSaldo();
+foreach (var item in maria.Empregos)
+{
+    Console.WriteLine(item);
+}
 
-maria.Enviar(50);
-maria.ExibirSaldo();
+
+
+
+
+
+
+
+
+
+
+
+// PessoaFisica maria = new PessoaFisica();
+// Guid chaveAleatoria = Guid.NewGuid();
+// string MinhaChavePix = chaveAleatoria.ToString();
+
+// maria.Chave = MinhaChavePix;
+// maria.Nome = "Maria smith";
+// maria.Saldo = 100;
+// maria.ExibirSaldo();
+
+// maria.Receber(20);
+// maria.ExibirSaldo();
+
+// maria.Enviar(50);
+// maria.ExibirSaldo();
 
 Console.WriteLine("-".PadLeft(100, '-'));
 

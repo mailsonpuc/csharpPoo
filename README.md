@@ -16,3 +16,6 @@
 
 ## ex005
 <img src="diagram/ex005.png">
+
+## ex006
+<img src="diagram/ex006.png">

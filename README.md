@@ -30,5 +30,5 @@
 ## ex009
 <img src="diagram/ex009.png">
 
-## ex009
+## ex010
 <img src="diagram/ex010.png">

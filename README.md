@@ -29,3 +29,6 @@
 
 ## ex009
 <img src="diagram/ex009.png">
+
+## ex009
+<img src="diagram/ex010.png">

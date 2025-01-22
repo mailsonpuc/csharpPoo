@@ -4,7 +4,7 @@
 <img src="diagram/ex001.png">
 
 ## ex002
-<img src="diagram/ex002.png">
+<img src="diagram/ex002.jpg">
 
 
 ## ex003

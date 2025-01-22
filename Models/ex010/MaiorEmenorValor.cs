@@ -2,7 +2,8 @@
 
 namespace csharpPoo.Models.ex010
 {
-    public class MaiorEmenorValor
+    //Uma classe selada em C# é uma classe que não pode ser herdada por outras classes. 
+    public sealed class MaiorEmenorValor
     {
         public MaiorEmenorValor()
         {

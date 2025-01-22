@@ -9,6 +9,7 @@ using csharpPoo.Models.ex006;
 using csharpPoo.Models.ex007;
 using csharpPoo.Models.ex008;
 using csharpPoo.Models.ex009;
+using csharpPoo.Models.ex010;
 
 Console.Clear();
 
@@ -17,10 +18,22 @@ Console.WriteLine("-".PadLeft(100, '-'));
 
 
 
-MediaDoAluno ruam = new MediaDoAluno();
-ruam.Nota1 = 5.5;
-ruam.Nota2 = 9;
-ruam.CalcularNota();
+MaiorEmenorValor mn = new MaiorEmenorValor();
+
+mn.num.Add(5);
+mn.num.Add(5);
+mn.num.Add(5);
+
+mn.num.AddRange(new List<int> { 1, 5, 6, 7, 8, 100 });
+
+mn.CalcularResultado();
+
+
+
+// MediaDoAluno ruam = new MediaDoAluno();
+// ruam.Nota1 = 5.5;
+// ruam.Nota2 = 9;
+// ruam.CalcularNota();
 
 
 

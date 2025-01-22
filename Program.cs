@@ -8,19 +8,33 @@ using csharpPoo.Models.ex005;
 using csharpPoo.Models.ex006;
 using csharpPoo.Models.ex007;
 using csharpPoo.Models.ex008;
+using csharpPoo.Models.ex009;
 
 Console.Clear();
 
 
 Console.WriteLine("-".PadLeft(100, '-'));
 
-SorteandoPessoaNaList pNaList = new SorteandoPessoaNaList();
 
-pNaList.Pessoas.Add("Maui");
-pNaList.Pessoas.Add("Zuru");
-pNaList.Pessoas.Add("Maik");
 
-pNaList.ExibirInformacao();
+MediaDoAluno ruam = new MediaDoAluno();
+ruam.Nota1 = 5.5;
+ruam.Nota2 = 9;
+ruam.CalcularNota();
+
+
+
+
+
+
+
+// SorteandoPessoaNaList pNaList = new SorteandoPessoaNaList();
+
+// pNaList.Pessoas.Add("Maui");
+// pNaList.Pessoas.Add("Zuru");
+// pNaList.Pessoas.Add("Maik");
+
+// pNaList.ExibirInformacao();
 
 
 

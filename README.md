@@ -19,3 +19,9 @@
 
 ## ex006
 <img src="diagram/ex006.png">
+
+## ex007
+<img src="diagram/ex007.png">
+
+## ex008
+<img src="diagram/ex008.png">

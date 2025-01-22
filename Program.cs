@@ -6,26 +6,57 @@ using csharpPoo.Models.ex003;
 using csharpPoo.Models.ex004;
 using csharpPoo.Models.ex005;
 using csharpPoo.Models.ex006;
+using csharpPoo.Models.ex007;
+using csharpPoo.Models.ex008;
 
 Console.Clear();
 
 
 Console.WriteLine("-".PadLeft(100, '-'));
 
-PessoaNormal maria = new PessoaNormal();
-maria.Nome = "Maria";
-maria.Idade = 33;
-maria.Empregos.Add("Densevolvedora Front-end");
-maria.Empregos.Add("Designer");
-maria.Empregos.Add("Video de Youtube");
-maria.Empregos.Add("Palestrante");
+SorteandoPessoaNaList pNaList = new SorteandoPessoaNaList();
 
-maria.ExibirInformacao();
+pNaList.Pessoas.Add("Maui");
+pNaList.Pessoas.Add("Zuru");
+pNaList.Pessoas.Add("Maik");
 
-foreach (var item in maria.Empregos)
-{
-    Console.WriteLine(item);
-}
+pNaList.ExibirInformacao();
+
+
+
+
+// ParesEimpares pp = new ParesEimpares();
+
+// pp.Numeros.Add(5);
+// pp.Numeros.Add(new Random().Next(1, 100));
+// pp.Numeros.Add(new Random().Next(1, 100));
+// pp.Numeros.Add(new Random().Next(1, 100));
+// pp.Numeros.Add(new Random().Next(1, 100));
+// pp.Numeros.Add(new Random().Next(1, 100));
+// pp.Numeros.Add(new Random().Next(1, 100));
+// pp.ExibirImformacao();
+
+
+
+
+
+
+
+
+// PessoaNormal maria = new PessoaNormal();
+// maria.Nome = "Maria";
+// maria.Idade = 33;
+// maria.Empregos.Add("Densevolvedora Front-end");
+// maria.Empregos.Add("Designer");
+// maria.Empregos.Add("Video de Youtube");
+// maria.Empregos.Add("Palestrante");
+
+// maria.ExibirInformacao();
+
+// foreach (var item in maria.Empregos)
+// {
+//     Console.WriteLine(item);
+// }
 
 
 
